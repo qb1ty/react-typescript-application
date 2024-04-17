@@ -1,0 +1,42 @@
+.main-modal {
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(176, 176, 176, 0.533);
+}
+
+.user_pos {
+    border: 1px solid rgba(198, 198, 198, 0.398);
+    outline: none;
+    width: 100%;
+    padding: 7px 0 7px 10px;
+    margin: 10px 0 0 0;
+}
+
+.examples_cities {
+    margin-top: 10px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap');
+.examples_cities span {
+    margin-left: 3px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.example_tag {
+    color: rgba(77, 77, 77, 0.729);
+}
+
+.example {
+    color: royalblue;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+    --bs-btn-border-radius: 0;
+    margin-top: 12px;
+}
+
+.ant-btn {
+    border-radius: 0;
+}

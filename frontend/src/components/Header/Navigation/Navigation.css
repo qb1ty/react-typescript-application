@@ -1,0 +1,20 @@
+.main_nav_block {
+    height: 40px;
+    border-bottom: 0.1px solid rgba(215, 215, 215, 0.615);
+    position: relative;
+}
+
+.affected-modal .ant-modal-content {
+    margin-top: 30px;
+    border-radius: 0 !important;
+    padding: 20px 30px !important;
+}
+
+.affected-modal .ant-modal-title {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.affected-modal .ant-modal-close-x span {
+    font-size: 1.2rem;
+}

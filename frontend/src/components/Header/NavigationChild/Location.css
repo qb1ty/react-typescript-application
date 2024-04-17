@@ -1,0 +1,35 @@
+.geo_icon {
+    transform: scale(1.1);
+    position: absolute;
+    top: 7px;
+    left: 5.5rem;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap');
+.user_city {
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    top: 10px;
+    left: 6.5rem;
+    margin-left: .1rem;
+}
+
+.city {
+    transform: scale(0.85);
+    color: rgba(0, 0, 0, 0.68);
+    cursor: pointer;
+    transition: color .2s ease;
+}
+
+.city:hover {
+    color:  royalblue;
+}
+
+.arrow_down_btn {
+    border: none;
+    outline: none;
+    background: transparent;
+    margin-left: -10px;
+    padding: 0;
+    transform: scale(0.5);
+}

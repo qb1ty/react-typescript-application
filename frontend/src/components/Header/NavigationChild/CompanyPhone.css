@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+20&family=Merriweather:wght@900&family=Montserrat:ital,wght@0,600;1,600&display=swap');
+.phone {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+}
+
+.phone_icon {
+    position: absolute;
+    top: 6.6px;
+    left: 45rem;
+    transform: scale(0.75);
+}
+
+.number {
+    position: absolute;
+    top: 7.5px;
+    left: 45.5rem;
+    transform: scale(.7);
+    cursor: pointer;
+}
+
+.phone::after {
+    content: "+7 707 194 60 62";
+    display: none;
+}
+
+.phone:hover::after {
+    content: "+7 707 194 60 62";
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 33px;
+    left: 42.8rem;
+    padding: 10px 20px 0 40px;
+    transform: scale(.7);
+    cursor: pointer;
+    height: 50px;
+    width: 200px;
+    box-shadow: 8px 10px 15px -10px rgba(0,0,0,0.75);
+    display: block;
+}
+
+.arrow_down_button {
+    position: absolute;
+    top: 6.5px;
+    left: 54rem;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 0;
+    transform: scale(0.5);
+}
